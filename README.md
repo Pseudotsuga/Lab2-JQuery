@@ -1,2 +1,43 @@
 # Lab2-JQuery
-Conor McCue and Natalie Alway collaborated on this lab.
+This lab demonstrates our competency with JQuery. First we render an entire webpage using a JSON file as our source data. Then we add functionality and styling to the webpage with additional JQuery Methods. 
+
+**Conor McCue and Natalie Alway collaborated on this lab.**
+## Feature 1: Display Images
+
+* Estimate of time needed to complete: 
+
+* Start time: 
+
+* Finish time: 
+
+* Actual time needed to complete: 
+
+## Feature 2: Filter Images
+
+* Estimate of time needed to complete: 
+
+* Start time: 
+
+* Finish time: 
+
+* Actual time needed to complete: 
+
+## Feature 3: Style the Application
+
+* Estimate of time needed to complete: 
+
+* Start time: 
+
+* Finish time: 
+
+* Actual time needed to complete: 
+
+## Feature 4: Sort the Images (Stretch Goal)
+
+* Estimate of time needed to complete: 
+
+* Start time: 
+
+* Finish time: 
+
+* Actual time needed to complete: 

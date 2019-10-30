@@ -45,10 +45,10 @@ This lab demonstrates our competency with JQuery. First we render an entire webp
 # Lab 03: Flexbox and Templating
 ## Feature 1: Pagination
 
-* Estimate of time needed to complete: 
+* Estimate of time needed to complete: 30 Minutes
 
-* Start time: 
+* Start time: 3:40pm
 
-* Finish time: 
+* Finish time: 4:10pm
 
-* Actual time needed to complete: 
+* Actual time needed to complete: 40 Minutes

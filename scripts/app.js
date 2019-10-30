@@ -64,6 +64,7 @@ Image.loadImages = () => {
 const selectEvent = event => {
   let eventTarget = event.target.value;
   $(`.${eventTarget}`).show();
+  $('section').not(`.${eventTarget}`).hide();
 };
 
 $(() => Image.readJson());

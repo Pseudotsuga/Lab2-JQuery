@@ -4,9 +4,9 @@ This lab demonstrates our competency with JQuery. First we render an entire webp
 **Conor McCue and Natalie Alway collaborated on this lab.**
 ## Feature 1: Display Images
 
-* Estimate of time needed to complete: 
+* Estimate of time needed to complete: 1 Hour.
 
-* Start time: 
+* Start time: 8:21 AM
 
 * Finish time: 
 

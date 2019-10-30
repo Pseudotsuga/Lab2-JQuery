@@ -16,24 +16,27 @@ Image.readJson = () => {
       data.forEach( thing => {
         Image.all.push(new Image(thing));
       });
-    });
-  // .then(image.load)
+    })
+    .then(Image.loadImages);
 };
 
 Image.prototype.render = function(){
   //Create
   let imageClone = $('#photo-template').clone();
-  console.log(imageClone);
   let $imageClone = $(imageClone[0].content);
-  console.log($imageClone);
   //Give Content
   $imageClone.find('h2').text(this.title);
   $imageClone.find('img').attr('src', this.image_url);
   $imageClone.find('img').attr('alt', this.description);
   $imageClone.find('p').text(this.description);
+  $imageClone.removeClass('clone');
   $imageClone.attr('class', this.keyword);
   //Render
-  $imageClone.prepend('main');
+  $imageClone.appendTo('main');
 };
 
+Image.loadImages = () => {
+  Image.all.forEach( image => image.render());
+};
 
+$(() => Image.readJson());

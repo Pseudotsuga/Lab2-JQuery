@@ -14,9 +14,9 @@ This lab demonstrates our competency with JQuery. First we render an entire webp
 
 ## Feature 2: Filter Images
 
-* Estimate of time needed to complete: 
+* Estimate of time needed to complete:  45 Minutes.
 
-* Start time: 
+* Start time: 9:53 AM
 
 * Finish time: 
 

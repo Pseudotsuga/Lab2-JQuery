@@ -1,31 +1,39 @@
 'use strict';
 
- function MythicalBeast (mythicalBeast){
-  this.image_url = mythicalBeast.image_url;
-  this.title = mythicalBeast.title;
-  this.description = mythicalBeast.description;
-  this.keyword = mythicalBeast.keyword;
-  this.horns = mythicalBeast.horns;
+function Image (image){
+  this.image_url = image.image_url;
+  this.title = image.title;
+  this.description = image.description;
+  this.keyword = image.keyword;
+  this.horns = image.horns;
 }
 
-MythicalBeast.all = [];
+Image.all = [];
 
-MythicalBeast.readJson = () => {
+Image.readJson = () => {
   $.get('../data/page-1.json')
-  .then( data => {
-    data.forEach( thing => {
-      MythicalBeast.all.push(new MythicalBeast(thing));
+    .then( data => {
+      data.forEach( thing => {
+        Image.all.push(new Image(thing));
+      });
     });
-  })
-  // .then(MythicalBeast.load)
-}
+  // .then(image.load)
+};
 
-MythicalBeast.prototype.render = function(){
+Image.prototype.render = function(){
   //Create
-
+  let imageClone = $('#photo-template').clone();
+  console.log(imageClone);
+  let $imageClone = $(imageClone[0].content);
+  console.log($imageClone);
   //Give Content
-
+  $imageClone.find('h2').text(this.title);
+  $imageClone.find('img').attr('src', this.image_url);
+  $imageClone.find('img').attr('alt', this.description);
+  $imageClone.find('p').text(this.description);
+  $imageClone.attr('class', this.keyword);
   //Render
-}
-MythicalBeast.readJson();
-console.log(MythicalBeast.all);
+  $imageClone.prepend('main');
+};
+
+

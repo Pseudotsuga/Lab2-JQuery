@@ -1,5 +1,7 @@
 'use strict';
 
+let keywordArray = [];
+
 function Image (image){
   this.image_url = image.image_url;
   this.title = image.title;
@@ -35,8 +37,28 @@ Image.prototype.render = function(){
   $imageClone.appendTo('main');
 };
 
+Image.prototype.renderOptions = function(){
+  //Create
+  let optionClone = $('option').clone();
+  let $optionClone = $(optionClone[0]);
+  //Evaluate
+  if (!keywordArray.includes(this.keyword)){
+  //Give Content
+    $optionClone.text(this.keyword);
+    $optionClone.value = this.keyword;
+    keywordArray.push(this.keyword);
+    //Render
+    $optionClone.appendTo('select');
+    console.log(keywordArray);
+  }
+};
+
 Image.loadImages = () => {
-  Image.all.forEach( image => image.render());
+  Image.all.forEach( image => {
+    image.render();
+    image.renderOptions();
+  });
 };
 
 $(() => Image.readJson());
+console.log($('select').find('option'));

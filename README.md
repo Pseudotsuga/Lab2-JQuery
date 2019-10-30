@@ -24,13 +24,13 @@ This lab demonstrates our competency with JQuery. First we render an entire webp
 
 ## Feature 3: Style the Application
 
-* Estimate of time needed to complete: 
+* Estimate of time needed to complete: 40 Minutes
 
-* Start time: 
+* Start time: 11:26am
 
-* Finish time: 
+* Finish time: 12:00pm
 
-* Actual time needed to complete: 
+* Actual time needed to complete: 34 Minutes
 
 ## Feature 4: Sort the Images (Stretch Goal)
 

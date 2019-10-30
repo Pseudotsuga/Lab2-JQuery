@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+
+}
+ main {
+   width: 100%;
+ }
+
+ section {
+  height: 300px;
+  width: 25%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  
+}
+
+footer {
+  clear: left;
+}

@@ -4,33 +4,33 @@ This lab demonstrates our competency with JQuery. First we render an entire webp
 **Conor McCue and Natalie Alway collaborated on this lab.**
 ## Feature 1: Display Images
 
-* Estimate of time needed to complete: 
+* Estimate of time needed to complete: 1 Hour.
 
-* Start time: 
+* Start time: 8:21 AM
 
-* Finish time: 
+* Finish time: 9:45 AM
 
-* Actual time needed to complete: 
+* Actual time needed to complete: 1 Hour + 24 Minutes.
 
 ## Feature 2: Filter Images
 
-* Estimate of time needed to complete: 
+* Estimate of time needed to complete:  45 Minutes.
 
-* Start time: 
+* Start time: 9:53 AM
 
-* Finish time: 
+* Finish time: 11:00 AM
 
-* Actual time needed to complete: 
+* Actual time needed to complete:  1 Hour + 7 Minutes.
 
 ## Feature 3: Style the Application
 
-* Estimate of time needed to complete: 
+* Estimate of time needed to complete: 40 Minutes
 
-* Start time: 
+* Start time: 11:26am
 
-* Finish time: 
+* Finish time: 12:00pm
 
-* Actual time needed to complete: 
+* Actual time needed to complete: 34 Minutes
 
 ## Feature 4: Sort the Images (Stretch Goal)
 

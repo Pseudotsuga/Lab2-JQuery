@@ -32,7 +32,8 @@ Image.prototype.render = function(){
   $imageClone.find('img').attr('alt', this.description);
   $imageClone.find('p').text(this.description);
   $imageClone.removeClass('clone');
-  $imageClone.attr('class', this.keyword);
+  $imageClone.find('section').attr('class', this.keyword);
+  $imageClone.find('section').attr('class', 'content');
   //Render
   $imageClone.appendTo('main');
 };
@@ -49,7 +50,6 @@ Image.prototype.renderOptions = function(){
     keywordArray.push(this.keyword);
     //Render
     $optionClone.appendTo('select');
-    console.log(keywordArray);
   }
 };
 
@@ -58,7 +58,10 @@ Image.loadImages = () => {
     image.render();
     image.renderOptions();
   });
+  $('.content').hide();
 };
 
+// const selectEvent = event => {
+
+// }
 $(() => Image.readJson());
-console.log($('select').find('option'));

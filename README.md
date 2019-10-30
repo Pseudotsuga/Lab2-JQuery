@@ -8,9 +8,9 @@ This lab demonstrates our competency with JQuery. First we render an entire webp
 
 * Start time: 8:21 AM
 
-* Finish time: 
+* Finish time: 9:45 AM
 
-* Actual time needed to complete: 
+* Actual time needed to complete: 1 Hour + 24 Minutes.
 
 ## Feature 2: Filter Images
 

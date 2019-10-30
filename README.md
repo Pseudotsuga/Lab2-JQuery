@@ -41,3 +41,14 @@ This lab demonstrates our competency with JQuery. First we render an entire webp
 * Finish time: 
 
 * Actual time needed to complete: 
+
+# Lab 03: Flexbox and Templating
+## Feature 1: Pagination
+
+* Estimate of time needed to complete: 
+
+* Start time: 
+
+* Finish time: 
+
+* Actual time needed to complete: 

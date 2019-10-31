@@ -41,3 +41,44 @@ This lab demonstrates our competency with JQuery. First we render an entire webp
 * Finish time: 
 
 * Actual time needed to complete: 
+
+# Lab 03: Flexbox and Templating
+## Feature 1: Pagination
+
+* Estimate of time needed to complete: 30 Minutes
+
+* Start time: 3:40pm
+
+* Finish time: 4:10pm
+
+* Actual time needed to complete: 40 Minutes
+
+## Feature 2: Templating
+
+* Estimate of time needed to complete: 45 Minutes
+
+* Start time: 4:16pm
+
+* Finish time: 10:30 AM
+
+* Actual time needed to complete: (90 Minutes to 120 Minutes - Frequent Class interruptions made hard to estimate)
+
+## Feature 3: Styling with Flexbox
+
+* Estimate of time needed to complete: 25 Minutes
+
+* Start time: 10:34 AM
+
+* Finish time: 11:12AM
+
+* Actual time needed to complete: Approximately 45 minutes.
+
+## Feature 4: Sort the Images
+
+* Estimate of time needed to complete: 45 Minutes
+
+* Start time: 12:15pm
+
+* Finish time: 12:55pm
+
+* Actual time needed to complete: 40 Minutes

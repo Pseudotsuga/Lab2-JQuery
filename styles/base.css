@@ -1,5 +1,14 @@
 * {
   font-family: 'Muli', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(224, 250, 224);
+}
+
+section {
+  background-color: rgb(246, 255, 246);
 }
 
 

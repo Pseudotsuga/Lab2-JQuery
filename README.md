@@ -62,3 +62,13 @@ This lab demonstrates our competency with JQuery. First we render an entire webp
 * Finish time: 10:30 AM
 
 * Actual time needed to complete: (90 Minutes to 120 Minutes - Frequent Class interruptions made hard to estimate)
+
+## Feature 3: Styling with Flexbox
+
+* Estimate of time needed to complete: 25 Minutes
+
+* Start time: 10:34 AM
+
+* Finish time: tbd
+
+* Actual time needed to complete: tbd

@@ -52,3 +52,13 @@ This lab demonstrates our competency with JQuery. First we render an entire webp
 * Finish time: 4:10pm
 
 * Actual time needed to complete: 40 Minutes
+
+## Feature 2: Templating
+
+* Estimate of time needed to complete: 45 Minutes
+
+* Start time: 4:16pm
+
+* Finish time: 
+
+* Actual time needed to complete: 

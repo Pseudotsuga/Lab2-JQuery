@@ -59,6 +59,6 @@ This lab demonstrates our competency with JQuery. First we render an entire webp
 
 * Start time: 4:16pm
 
-* Finish time: 
+* Finish time: 10:30 AM
 
-* Actual time needed to complete: 
+* Actual time needed to complete: (90 Minutes to 120 Minutes - Frequent Class interruptions made hard to estimate)

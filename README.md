@@ -72,3 +72,13 @@ This lab demonstrates our competency with JQuery. First we render an entire webp
 * Finish time: 11:12AM
 
 * Actual time needed to complete: Approximately 45 minutes.
+
+## Feature 4: Sort the Images
+
+* Estimate of time needed to complete: 45 Minutes
+
+* Start time: 12:15pm
+
+* Finish time: 12:55pm
+
+* Actual time needed to complete: 40 Minutes

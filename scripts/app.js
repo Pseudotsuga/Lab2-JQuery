@@ -46,6 +46,7 @@ Image.prototype.renderOptions = function(){
 };
 
 Image.loadImages = () => {
+  Image.all.sort(( a, b) => a.horns - b.horns);
   Image.all.forEach( image => {
     $('main').append(image.render());
     image.renderOptions();
